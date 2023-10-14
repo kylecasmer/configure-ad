@@ -21,33 +21,68 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create Domain Controller VM and Client VM in Azure
+- Use same resource group for both VMs
+- Ensure both VMs are in same Vnet
+- Install Active Directory
+- Create an Admin and Normal User account in AD
+- Join Client VM to your domain
+- Setup Romote Desktop for non-admin users on Client VM
+- Create additional users and attempt to login to Client VM with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p> 1. Create Domain Controller VM and Client VM in Azure
+
+
+  
+
+<img src="https://i.imgur.com/Dw7SOfz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+
+
+<p> 2. Use same resource group for both VMs
+<p> 3. Ensure both VMs are in the same Vnet
+<p> 4. Install Active Directory
+
+
+
+  
+<img src="https://i.imgur.com/Md6fyWk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+
+<p> 5. Create an admin and normal user account in AD
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KfuESO5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
+
+<p> 6. Join Client VM to your domain
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+
+<img src="https://i.imgur.com/UqVouOi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+<p> 7. Setup remote desktop for non-admin users on client VM
+<p> 8. Create additional users and attempt to login to client Vm with one of the users
+
+
+
+
+<img src="https://i.imgur.com/58rFPqz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+
+<p> 9. Close resource groups/VMs
