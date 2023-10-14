@@ -86,3 +86,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <p> 9. Close resource groups/VMs
+
+
+
+
+<p> 9. Close resource groups/VMs
